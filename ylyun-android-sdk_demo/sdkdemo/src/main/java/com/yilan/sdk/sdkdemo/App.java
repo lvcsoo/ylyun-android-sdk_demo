@@ -41,8 +41,8 @@ public class App extends Application {
         //Thread.setDefaultUncaughtExceptionHandler(new DemoHandler());
         YLUIInit.getInstance()
                 .setApplication(this)
-                .setAccessKey("ylel2vek386q")
-                .setAccessToken("talb5el4cbw3e8ad3jofbknkexi1z8r4")
+                .setAccessKey("") //填写key
+                .setAccessToken("") //填写 token
                 .setWebStyle(2)
                 .logEnable(true)
                 .build();

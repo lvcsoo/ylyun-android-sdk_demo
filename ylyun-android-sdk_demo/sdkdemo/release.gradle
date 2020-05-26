@@ -57,17 +57,5 @@ dependencies {
 
 
     //一览sdk
-    implementation "com.yilan.sdk:ui:1.8.0.9"
-    implementation "com.yilan.sdk:webui:1.8.0.9"
-
-    //若需要投放广点通，百度的广告，则添加
-    implementation "com.yilan.sdk:ad:1.8.0.9"
-
-    //穿山甲广告
-    implementation(name: 'open_ad_sdk', ext: 'aar')
-    implementation(name: 'android-gif-drawable-1.2.6', ext: 'aar')
-    //百度广告
-    implementation(name: 'Baidu_MobAds_SDK_v5.81', ext: 'aar')
-    //广点通广告
-    implementation(name: 'GDTSDK.unionNormal.4.176.1046', ext: 'aar')
+    implementation "com.yilan.sdk:ui:2.0.0.0"
 }
